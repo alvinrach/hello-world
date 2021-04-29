@@ -1,0 +1,58 @@
+attr_info={'tanah' : {'max':0.5, 'min':0.3}, 'bangunan' : {'max':0.5, 'min':0.3}}
+
+dia prosesnya isi {{tanah:0.2}, {tanah:0.3}} dulu baru {{tanah, bangunan}, {tanah,bangunan}...}
+list_of_dictionary={{'tanah' : 0.4, 'bangunan' : 0.3}, {}, {}...} 
+
+return data di step 6: data={'tanah' : 0.5, 'bangunan' : 0.6}
+
+list[0]['tanah']
+
+4
+recursive
+1
+Integer.toString(number)
+Integer.parseInt(text)
+5
+periksa tanda
+periksa case sensitive
+
+Integer.toString(number)
+input: int
+output: String
+Integer.parseInt(text)
+input: String
+output:; int
+From Evan Kurnia Alim to Everyone:  09:22 PM
+NLP
+pemenggalan suku kata, menghilangkan imbuhan, SPOK
+From Evan Kurnia Alim to Everyone:  09:37 PM
+pemenggalan suku kata = syllabification
+menghilangkan imbuhan = stemming
+SPOK = phrase
+syllable-level, morpheme-level, phrase-level
+analyzer
+https://prosa.ai/solutions/text-api/syntactic-analyzer
+lemma = kata dasar
+lebih tepatnya infinitive
+atau bentuk kamus
+https://docs.prosa.ai/syntax/
+https://docs.prosa.ai/phrase-chunker/
+SPOK = phrase chunker
+dphi.tech
+https://docs.prosa.ai/stemmer/
+temp = a;
+a = b;b = temp;
+temp = a;
+a = b;
+b = temp;
+
+v pd.IndexSlice
+vx to_datetime yyyy mm dd
+map lambda #map cuma utk series
+v np.random.rand(3,4)
+applymap #applymap cuma utk dataframe
+applymap with def #tanpa tulis lambda x:
+#intinya selalu pake apply aja, krn apply buat both series n dataframe
+print("Ukuran awal df: %d baris, %d kolom." % df.shape)
+#project andra pandas satu bagus buat latihan lambda
+gmn cara tulis kode dikit udah ada penjelasan, kyk kite tp jgn kite lah
